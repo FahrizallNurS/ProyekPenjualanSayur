@@ -3,11 +3,11 @@
 ## 📂 Daftar Isi Folder
 - **Dokumen Proyek** 📄
   - 📘 Dokumentasi Awal Proyek Pengembangan Proyek Penjualan Sayur.pdf
-  - 📙 Fitur Database[1].pdf
-  - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
-  - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
+  - 📙 Fitur Daftar.html
+  - 📗 Fitur login.html
+  - 📕 fitur lupapassword.html
 - **Folder Basic** 📁
-  - 🔧 Codingan composer
+  - 🔧 Codingan 
 
 ---
 
@@ -35,7 +35,7 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 ---
 
 ## 📝 Deskripsi
-This repository is the collaborative work of **Kelompok 2** for the **UAS Project**. It includes:
+This repository is the collaborative work of **Kelompok 4** for the **Project**. It includes:
 - 📌 Initial project documentation.
 - 📌 Database features.
 - 📌 Group project report.
@@ -48,7 +48,7 @@ We hope this repository provides a clear understanding of our project. 😊
 ## 🚀 How to Use
 1. Clone this repository locally:
    ```bash
-   git clone https://github.com/AbidRafiul/UAS_Kelompok2.git
+   git clone https://github.com/FahrizallNurS/ProyekPenjualanSayur.git
    ```
 2. Open the document files in the "Dokumen UAS" folder.
 3. Follow the system usage manual for further information.
