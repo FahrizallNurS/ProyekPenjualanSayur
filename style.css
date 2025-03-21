@@ -5,12 +5,12 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
-    z-index: 999;
+    z-index: 99;
     top: 0;
     padding: 13px;
     width: 100%;
     border-bottom: 1px solid #1EE16C;
-    font-family: "Poppins" ;
+    font-family: "Poppins";
 }
 .navbar-logo{
     margin-right:60px ;
