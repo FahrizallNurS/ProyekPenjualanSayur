@@ -4,41 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    
+    <link rel="icon" type="image/png" href="gambar/logo.jpg" sizes="16x16">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            text-align: center;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container input[type="submit"] {
+            background: #67e839;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .login-container input[type="submit"]:hover {
+            background: #57c02b;
+        }
+        .login-container a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Selamat Datang kembali</h1>
-    <table align="center" border="0" cellpadding="10">
-        <tr>
-            <td>
-                <form method="post" action="login.php">
-                    <fieldset style="width: 100%; text-align: center;">
-                        <legend><b>Login</b></legend>
-                        <table align="center">
-                            <tr>
-                                <td><label for="email">E-mail:</label></td>
-                                <td><input type="email" id="email" name="email" required></td>
-                            </tr>
-                            <tr>
-                                <td><label for="password">Password:</label></td>
-                                <td><input type="password" id="password" name="password" required></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <input type="submit" name="tombol" value="Login">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <a href="lupa_password.html">Lupa Password?</a> | 
-                                    <a href="buat_akun.html">Buat Akun</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </fieldset>
-                </form>
-            </td>
-        </tr>
-    </table>
+
+    <div class="login-container">
+        <form method="post" action="login.php">
+            <h2>Login</h2>
+            <label for="email">Masukkan E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Masukkan Password:</label>
+            <input type="password" id="password" name="password" required autocomplete="off">
+
+            <input type="submit" name="tombol" value="Login">
+        </form>
+        
+        <a href="daftar.html">Belum punya akun? Daftar di sini</a><br>
+        <a href="lupapassword.html">Lupa Password?</a>
+    </div>
+
 </body>
 </html>
