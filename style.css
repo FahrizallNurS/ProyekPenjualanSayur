@@ -1,0 +1,691 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #dcf7e4;
+    height: 300vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    padding: 13px;
+    width: 100%;
+    border-bottom: 1px solid #1EE16C;
+    font-family: "Poppins";
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main form {
+    width: 340px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main form a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.navbar-logo {
+    margin-right: 60px;
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 100;
+}
+
+.navbar-logo span {
+    color: #1EE16C;
+    font-weight: 600;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    background-color: #1EE16C;
+    border-radius: 8px;
+    padding: 4px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar img {
+    width: 40px;
+    margin-left: 290px;
+}
+
+.navbar-extra input {
+    background-color: #1EE16C;
+    width: 332px;
+    height: 48px;
+    border-radius: 10px;
+    margin-right: 50px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-style: italic;
+}
+
+.navbar .icon {
+    display: flex;
+    float: right;
+    margin-right: -30px;
+    margin-top: 8px;
+    margin-left: -47px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main .shape img {
+    width: 70%;
+    height: auto;
+    margin-left: 57px;
+}
+
+.beranda {
+    font-family: 'Poppins';
+    display: block;
+    font-weight: 200;
+    margin-left: -850px;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.beranda h1 {
+    font-weight: 500;
+}
+
+.beranda span {
+    color: #388E3C;
+}
+
+.beranda .produkkami {
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.container-tentang {
+    background-color: #007bff;
+    z-index: 99;
+}
+
+.panah {
+    margin-top: -100px;
+}
+
+.panah i {
+    font-size: 50px;
+    color: #FFA726;
+    margin-left: 500px;
+}
+
+.panah p {
+    margin-left: 480px;
+}
+
+.belanja {
+    background-color: #1EE16C;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    border-style: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+.button {
+    font-size: 15px;
+}
+
+.menu {
+    margin-top: 200px;
+}
+
+.menu h1 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu span {
+    color: #1EE16C;
+}
+
+.menu-card {
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu-card img {
+    width: 120px;
+    height: 120px;
+    background-color: #C0D8BE;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 5px 1px rgba(0, 0, 0,0.3); */
+}
+
+.shape {
+    background-color: #1EE16C;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 600px;
+    height: 600px;
+    z-index: -1;
+}
+
+.container-why {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    margin-bottom: 300px;
+}
+
+.why {
+    font-family: 'Poppins';
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-why h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-why .Hijau {
+    color: #1EE16C;
+    font-weight: 500;
+}
+
+.container-why .verse {
+    font-style: italic;
+    font-weight: 150;
+}
+
+.why .rectangle {
+    background-color: #1EE16C;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.why .rectangle img {
+    width: 80px;
+    margin-top: 20px;
+}
+.favorit{
+text-align: center;
+display: flex;
+justify-content: space-around;
+margin-top: 200px;
+}
+.favorit .sayuran{
+    background-color: #FFFFFF;
+    padding: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.rowwww{
+    display: flex;
+
+}
+
+/* produk */
+.header-produk {
+    margin-top: -250px;
+    height: 424px;
+    width: 100%;
+    background-color: #1EE16C;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: 'Poppins';
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.produk {
+    text-align: center;
+    margin-top: -290px;
+    background-color: #FFFFFF;
+}
+
+.produk-card {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sayuran button {
+    width: 320px;
+    height: 50px;
+    background-color: #FFA726;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+}
+
+.sayuran button:hover {
+    background-color: #f6ba5f;
+
+}
+
+.sayuran h2 {
+    text-align: start;
+}
+
+.sayuran h2 span {
+    color: #27AE60;
+}
+
+.Sayur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.produk .Sayur h2 {
+    width: 225px;
+    color: white;
+    text-align: center;
+    background-color: #27AE60;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.bumbuDapur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produk2 {
+    margin-top: 100px;
+}
+
+.produk2 .bumbuDapur h2 {
+    width: 225px;
+    color: white;
+    text-align: center;
+    background-color: #A93226;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.sayuranbuah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produk3 {
+    margin-top: 100px;
+}
+
+.produk3 .sayuranbuah h2 {
+    width: 225px;
+    color: white;
+    text-align: center;
+    background-color: #D63031;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+}
+
+.umbiumbian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produk4 {
+    margin-top: 100px;
+}
+
+.produk4 .umbiumbian h2 {
+    width: 225px;
+    color: white;
+    text-align: center;
+    background-color: #A67C52;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+/* Keranjang */
+
+.header-kranjang h1 {
+    margin-left: 30%;
+    margin-top: -255px;
+    font-weight: 700;
+    color: #27AE60;
+    font-family: 'Poppins';
+    font-size: 55px;
+
+}
+
+.container-keranjang {
+    background-color: #FFFFFF;
+    height: auto;
+    margin-top: 158px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.navbar-keranjang {
+    background-color: #1EE16C;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.navbar-keranjang p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+
+/* keranjang */
+
+.keranjang-belanja {
+    width: 90%;
+    margin: 30px auto;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+.item-keranjang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.gambar-produk {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.info-produk {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.harga {
+    color: green;
+    font-weight: bold;
+}
+
+.jumlah {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 275px;
+}
+
+.input-jumlah {
+    width: 50px;
+    text-align: center;
+}
+
+.hapus {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subtotal {
+    width: 100px;
+    margin-right: 28px;
+}
+
+.harga {
+    margin-left: 360px;
+    margin-top: -55px;
+}
+
+.nama-item {
+    margin-left: 25px;
+
+}
+
+.totalProduk {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 122px;
+}
+
+.buttonPembayaran {
+    float: right;
+    margin-bottom: 30px;
+    background-color: #FFA726;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.buttonPembayaran:hover {
+    background-color: #f6ba5f;
+}
+
+/* detail produk */
+
+.container-detail {
+  background-color: #ffffff;
+  z-index: 2;
+  position: relative;
+  height: 550px;
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  /* Membatasi konten agar tidak keluar */
+  padding: 20px;
+}
+
+.container-gambar {
+  background-color: #C8E6C9;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  width: 55%;
+  height: 470px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar-deskripsi {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  justify-content: space-around;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+padding: 5px;
+}
+
+.container-info .navbar-deskripsi a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: #2e7d32;
+  border-radius: 5px;
+}
+
+.navbar-deskripsi a:hover {
+  background-color: #c8e6c9;
+}
+
+.description {
+  margin-top: 10px;
+  color: #444;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 125px;
+  color: #2e7d32;
+}
+
+.weight {
+  font-size: 14px;
+  color: #666;
+}
+
+.buy-button {
+  margin-top: 15px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #e68900;
+}
+
+.container-info {
+  max-width: 500px;
+  margin-left: 810px;
+}
+
+.container-detail h1 {
+  color: #1EE16C;
+  font-size: 35px;
+  margin-top: -475px;
+  
+}
+
+.container-gambar img {
+  width: 500px;
+  height: auto;
+}
+.container-rekom{
+  background-color: #ffffff;
+ margin-top: 70px;
+ height: 500px;
+}
+.container-rekom h1{
+  padding: 10px;
+}
+.roww{
+ display: flex;
+  flex-wrap: wrap;
+   gap: 10px;
+      justify-content: flex-start;
+}
+.roww h2 span{
+    color: #27AE60;
+}
+.rectangle{
+  background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+}
+.roww button{
+    width: 280px;
+    height: 50px;
+    background-color: #FFA726;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+}
+.roww button:hover{
+    background-color: #f6ba5f;
+
+}
+.rectangle h2{
+  text-align: start;
+  margin-top: -20px;
+}
+
+
+/* kui */
