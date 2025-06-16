@@ -27,10 +27,10 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 ---
 
 ## 🤝 Contributors
-| Contributor       | GitHub Profile                                  |
-|-------------------|------------------------------------------------|
-| **Adia Sandra**  | [🌐 Profile](https://github.com/sandraalmeera) |
-| **Yessica**      | [🌐 Profile](https://github.com/yesicafapa)    |
+| Contributor       | GitHub Profile                                    |
+|-------------------|---------------------------------------------------|
+| **Adi Nugroho**   | [🌐 Profile](https://github.com/Adinug122)        |
+| **Rahmanda**      | [🌐 Profile](https://github.com/RahmandaAlvin)    |
 
 ---
 
