@@ -31,6 +31,7 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 |-------------------|---------------------------------------------------|
 | **Adi Nugroho**   | [🌐 Profile](https://github.com/Adinug122)        |
 | **Rahmanda**      | [🌐 Profile](https://github.com/RahmandaAlvin)    |
+| **Fahrizal**      | [🌐 Profile](https://github.com/FahrizallNurS)    |
 
 ---
 
