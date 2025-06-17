@@ -44,6 +44,7 @@ Query & Proses → Query/, proses_beli.php, dll
 
 Nama
 GitHub Profile
+Fahrizal Nur S 🌐 https://github.com/FahrizallNurS
 
 Adi Nugroho	🌐 https://github.com/Adinug122
 
