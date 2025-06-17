@@ -64,7 +64,7 @@ Login menggunakan akun yang telah dibuat atau register jika tersedia.
 
 💡 Deskripsi Singkat
 
-Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 1. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
+Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 4. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
 
 Manajemen produk dan keranjang
 
