@@ -43,17 +43,29 @@ Query & Proses → Query/, proses_beli.php, dll
 🧑‍🤝‍🧑 Kontributor
 Nama	GitHub Profile
 Adi Nugroho	🌐 https://github.com/Adinug122
+
 Rahmanda Alvin	🌐 https://github.com/RahmandaAlvin
+
 🚀 Cara Menjalankan Proyek
 Clone repositori ke lokal:
+
 git clone https://github.com/FahrizallNurS/ProyekPenjualanSayur
+
 Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
+
 Import database ke phpMyAdmin.
+
 Buka http://localhost/Proyek_Penjualan_Telur melalui browser.
+
 Login menggunakan akun yang telah dibuat atau register jika tersedia.
+
 💡 Deskripsi Singkat
+
 Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 1. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
+
 Manajemen produk dan keranjang
+
 Sistem checkout
+
 Otentikasi pengguna
 Dashboard admin dan pelanggan
