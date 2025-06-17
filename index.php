@@ -10,25 +10,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     // Cek ADMIN
-    $stmtAdmin = $db->prepare("SELECT * FROM admin WHERE Email_Admin = :email");
+    $stmtAdmin = $db->prepare("SELECT * FROM t_admin WHERE Email_Admin = :email");
     $stmtAdmin->bindParam(':email', $email);
     $stmtAdmin->execute();
     $admin = $stmtAdmin->fetch(PDO::FETCH_ASSOC);
 
     if ($admin && password_verify($password, $admin['Password'])) {
-        $_SESSION["Email_Admin"] = $email;
+        $_SESSION["Email_Admin" 
+        ] = $email;
+        $_SESSION["Id_Admin"] = $admin['Id_Admin']; // jika butuh
         header("Location:dashboard.php");
         exit();
     }
 
-    // Cek PENGGUNA
-    $stmtUser = $db->prepare("SELECT * FROM pengguna WHERE Email_Pengguna = :email");
+    $stmtUser = $db->prepare("SELECT * FROM t_pengguna WHERE Email_Pengguna = :email");
     $stmtUser->bindParam(':email', $email);
     $stmtUser->execute();
     $user = $stmtUser->fetch(PDO::FETCH_ASSOC);
 
     if ($user && password_verify($password, $user['Password'])) {
         $_SESSION["Email_Pengguna"] = $email;
+        $_SESSION["Id_Pengguna"] = $user['Id_Pengguna'];
         header("Location:beranda.php");
         exit();
     }
@@ -42,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,10 +112,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
             
             <a href="daftar.php">Belum punya akun? Daftar di sini</a><br>
-            <a href="lupapassword.html">Lupa Password?</a>
+            <a href="lupapassword.php">Lupa Password?</a>
         </div>
     </div>
       </div>
+
+      <footer>
+        @copyrigt by Sayur Verse
+      </footer>
        
         <!-- font awesome icon start-->
     <script src="https://kit.fontawesome.com/66b0a68b39.js" crossorigin="anonymous"></script>
