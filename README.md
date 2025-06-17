@@ -41,7 +41,10 @@ Desain Halaman → File *.php dan *.css
 
 Query & Proses → Query/, proses_beli.php, dll
 🧑‍🤝‍🧑 Kontributor
-Nama	GitHub Profile
+
+Nama
+GitHub Profile
+
 Adi Nugroho	🌐 https://github.com/Adinug122
 
 Rahmanda Alvin	🌐 https://github.com/RahmandaAlvin
