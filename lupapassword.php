@@ -13,12 +13,12 @@ function kirim_email($email_penerima, $nama_penerima, $subjek, $isi) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rizalkhadam@gmail.com';
-        $mail->Password   = 'mxjfhhbhjeckqqui';
+        $mail->Username   = 'email admin';
+        $mail->Password   = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
-        $mail->setFrom('rizalkhadam@gmail.com', 'Admin sayur');
+        $mail->setFrom('email admin', 'Admin sayur');
         $mail->addAddress($email_penerima, $nama_penerima);
         $mail->isHTML(true);
         $mail->Subject = $subjek;
