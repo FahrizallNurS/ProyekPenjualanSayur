@@ -59,7 +59,7 @@ Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
 
 Import database ke phpMyAdmin.
 
-Buka http://localhost/Proyek_Penjualan_Telur melalui browser.
+Buka http://localhost/ProyekPenjualanSayur melalui browser.
 
 Login menggunakan akun yang telah dibuat atau register jika tersedia.
 
