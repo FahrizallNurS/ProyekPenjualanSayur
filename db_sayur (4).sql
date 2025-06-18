@@ -145,15 +145,7 @@ CREATE TABLE `t_pengguna` (
 --
 
 INSERT INTO `t_pengguna` (`Id_Pengguna`, `Nama_pengguna`, `Email_Pengguna`, `NoTelp_Pengguna`, `Alamat_Pengguna`, `JenisKelamin`, `Password`, `token_ganti`) VALUES
-(1, 'Tio udin', 'wido.01212@gmail.com', '018918282882', 'Ngawi', 'Laki-laki', '$2y$10$F//eWeCBozP1fbE2gdfuhelLGCzuqqD/bEkMnVz8I5rjsChW0bSvW', ''),
-(3, 'awa', 'adi315429@gmail.com', '085335084218', 'Kincang\r\nkecamatan jiwan', 'Perempuan', '$2y$10$5IgwzG2qOQzX9.5BchE54eUr8N/KBlnFrMhrzwWdX5pNDySP2Kok6', ''),
-(10, 'Adi nugroho', 'adinugg70@gmail.com', '0875782561127', 'Kincangkecamatan jiwan', 'Laki-lakii', '$2y$15$Lv6yv0GWy0ns9dDhriRbiOwFmBefMZMrbWB3Xzuka8aSTaXjwZ0XW', ''),
-(13, 'alvin', 'rahmanda94@gmail.com', '08675567654', 'Mojorayung city', 'Laki-laki', '$2y$10$zMKGPvOXspNXkmVdN5vPjeviwmFTxN3PKjq2ZPsTe7wRGIxrFePj2', ''),
-(14, 'pandu', 'pandu12@gmail.com', '0986576878', 'Madiun', 'Laki-laki', '$2y$10$UhMH7kcACkiBeJ2veth7jOGrCFW01FiHSLbrt59ImYlfrw1WjhSBW', ''),
-(15, 'alpin', 'alpinpace@gmail.com', '09878900099', 'Mojorayung', 'Laki-laki', '$2y$10$YCItnRxnA/7U2xe6UJol9um3.ZSilmXsqGT3xWaIrj87raNzp3FcK', ''),
-(16, 'amba', 'amba123@gmail.com', '085335084218', 'Kincang\r\nkecamatan jiwan', 'Laki-laki', '$2y$10$gXfyP2Fg41FIowRQDK92SeqMKiLHZzJxN0lCLsnPjQznKykvNfsVi', ''),
-(17, 'dhea', 'dhea@gmail.com', '0897654321', 'madiun', 'Perempuan', '$2y$10$EdZcbOw7ziYgXA9ZMPPGs.F/MR4QhqoTUIr1Yt7oBSM7CPnLHbNE6', ''),
-(18, 'rahmanda', 'rahmandaalvin94@gmail.com', '085755670643', 'mojorayung city', 'Laki-laki', '$2y$10$0h6.8syRhMju4RpX.VpNZ.l.fK4WPDRtpn/iI7Ne/Ya2s/atXt2z2', '');
+();
 
 --
 -- Indexes for dumped tables
